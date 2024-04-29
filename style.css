@@ -1,0 +1,241 @@
+/* global style */
+
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+p{
+  font-size: 18px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+b{
+	padding: 9px 8px 9px 8px;
+	width: 100px;
+	line-height: 1;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 4px;
+	color: white;
+	background-color: rgb(72, 201, 111);
+	cursor: pointer;
+}
+
+
+
+/* header navigation style */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3e6f3;
+  padding: 20px 80px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-list-nav ul {
+  display: flex;
+}
+.header-list-nav ul li {
+  list-style-type: none;
+  padding: 0 20px;
+  position: relative;
+}
+.header-list-nav ul a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.header-list-nav ul a:hover,
+.header-list-nav ul a.active {
+  color: #088178;
+}
+
+
+
+/* Banner style */
+
+#banner-title{
+	width : 100%;
+	height : 100vh;
+	background-color : #e3e6f3;
+	padding : 0px 80px;
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+}
+
+
+
+/* banner text styles */
+
+#banner-title h4{
+	padding-bottom : 30px;
+	font-size : 30px;
+}
+
+#banner-title h2{
+	font-size : 50px;
+}
+
+#banner-title p{
+	color: #088178;
+	font-size: 50px;
+}
+
+#banner-title b:hover{
+	background-color: #853fd4;
+}
+
+
+
+/* Product section style*/
+
+.product-title h1{
+  text-align: center;
+  margin-top : 40px;
+}
+
+.product-title p{
+	text-align : center;
+	margin-top : 10px;
+}
+
+.product-section{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 100px;
+	margin-top: 30px;	
+
+}
+
+.product-section .product-card{
+	width: 250px;
+	border: 1px solid #cce7d0;
+	border-radius: 30px;
+	padding: 15px;
+	box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+
+.product-section .product-card img{
+	width: 100%;
+	border-radius: 26px;
+}
+
+.product-section .product-card:hover{
+	box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+}
+
+
+/*offer banner styles*/
+
+.offer-banner{
+	width : 100%;
+	height : 400px;
+	background-image: url(Banner/b4.jpg);
+	margin-top: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -50px;
+}
+
+/*New product styles*/
+
+.product-title-p1 h1{
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+/*offer banner-1 style*/
+
+.offer-banner-1{
+	width: 100%;
+	height: 260px;
+	background-image: url(Banner/b1.jpg);
+	margin-top: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*signature fits title style*/
+
+.product-title-p2 h1{
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+/*offer banner-2 style*/
+
+.offer-banner-2{
+	width: 100%;
+	height: 150px;
+	margin-top: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(Banner/b1.jpg);
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*shop banner styles*/
+
+.shop-banner{
+	width: 100%;
+	height: 220px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	align-items: center;
+	margin: 80px 0;
+}
+
+.shop-banner .shop-product{
+	width: 200px;
+	height: 200px;
+}
+
+.shop-banner .shop-card img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.shop-banner a{
+	text-align: center;
+	margin-left: 80px;
+}
+
