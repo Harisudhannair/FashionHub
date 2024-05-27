@@ -39,7 +39,7 @@ b{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e3e6f3;
+  background-color: white;
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
@@ -136,7 +136,7 @@ b{
 	border: 1px solid #cce7d0;
 	border-radius: 30px;
 	padding: 15px;
-	box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
 	margin-bottom: 15px;
 	line-height: 30px;
 }
@@ -147,7 +147,39 @@ b{
 }
 
 .product-section .product-card:hover{
-	box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+.product-section .price{
+	text-align: center;
+}
+
+.product-section .price-box {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 5px;
+	margin-left: 54px;
+	line-height: 0px;
+	align-content: center;
+
+}
+  
+.product-section .price {
+	font-size: 15px;
+	font-weight: bold;
+}
+  
+.product-section .price-box del {
+	font-size: 15px;
+	color: silver;
+	margin-top: 15px;
+}
+
+.product-card .rating{
+	margin-left: 60px;
+}
+.product-card .rating .checked{
+	color: orange;
 }
 
 
@@ -232,8 +264,39 @@ b{
 	margin-left: 50px;
 }
 
+.shop-banner .shop-card img:hover{
+	box-shadow: 1px 1px 34px rgba(0, 0, 0, 0.1);
+}
+
+.shop-banner .shop-card img:active{
+	box-shadow: 1px 1px 34px rgba(0, 0, 0, 0.1);
+}
+
 .shop-banner a{
 	text-align: center;
+	font-weight: bold;
+}
+
+.shop-banner .jac{
+	margin-left: 70px;
+}
+
+.shop-banner .jean{
 	margin-left: 80px;
 }
 
+.shop-banner .shirt{
+	margin-left: 78px;
+}
+
+.shop-banner .tshirt{
+	margin-left: 72px;
+}
+
+.shop-banner .foot{
+	margin-left: 62px;
+}
+
+.shop-banner .must{
+	margin-left: 58px;
+}

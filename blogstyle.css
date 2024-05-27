@@ -1,0 +1,14 @@
+.blog-banner img{
+    width: 100%;
+    height: 100vh;
+}
+
+.blog-p{
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    width: 75%;
+    margin: auto;
+    line-height: 18px;
+    margin-top: 15px;
+}
